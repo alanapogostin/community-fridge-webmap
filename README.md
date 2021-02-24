@@ -1,2 +1,2 @@
-# my-first-webmap
+# community-fridge-webmap
  
