@@ -48,34 +48,34 @@ var html = `
   <h3>${fridgerow.organization}<h3/>
   <h4>
   <div> Host Type: ${fridgerow.location_type} <div/>
-  <div> Instagram: ${fridgerow.instagram} <div/>
+  <div> Instagram: @${fridgerow.instagram} <div/>
   <h4/>
 `
 var color = 'black'
 
           if (fridgerow.location_type == 'bodega'){
-            color = 'yellow',
+            color = 'yellow'
           }
           if (fridgerow.location_type == 'bar'){
-            color = 'blue',
+            color = 'blue'
           }
           if (fridgerow.location_type == 'coffee'){
-            color = 'brown',
-          }
-          }
-          if (fridgerow.location_type == 'coffee'){
-            color = 'brown',
-          }
+            color = 'brown'
           }
           if (fridgerow.location_type == 'church'){
-            color = 'orange',
+            color = 'orange'
           }
+          if (fridgerow.location_type == 'park'){
+            color = 'green'
           }
-          if (fridgerow.location_type == 'coffee'){
-            color = 'brown',
+          if (fridgerow.location_type == 'restaurant'){
+            color = 'brown'
           }
 
-  new mapboxgl.Marker()
+
+  new mapboxgl.Marker({
+    color: color
+  })
     .setLngLat([fridgerow.longitude, fridgerow.latitude]) // use [] to make it an array
     .setPopup(new mapboxgl.Popup().setHTML(html))
     .addTo(map);

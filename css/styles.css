@@ -1,6 +1,22 @@
+.background{
+  background-color: #F0FFF0;
+}
 #map-container{
   width: 75%;
   height: 400px;
   background-color: LightCoral;
   margin: 0 auto;
+}
+
+.header{
+  background-color: #F08080;
+}
+h1 {
+  font-family: "Garamond", sans-serif;
+  text-align: center;
+}
+h3 {
+  font-family: "Garamond", sans-serif;
+  text-align: center;
+  font-style: italic;
 }
