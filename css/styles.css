@@ -5,18 +5,56 @@
   width: 75%;
   height: 400px;
   background-color: LightCoral;
-  margin: 0 auto;
 }
-
+.note{
+  width: 75%;
+  font-family: "Garamond", sans-serif;
+  font-style: bold;
+  color: white;
+  text-align: center;
+  background-color: #8856a7;
+}
 .header{
-  background-color: #F08080;
+  background-color: #8856a7;
+}
+.introduction-header{
+  background-color: #8856a7;
+  margin-top: 0pt;
+  height: 47pt;
+}
+.caption{
+  font-family: "Garamond", sans-serif;
+  text-align: center;
+}
+body{
+  font-family: "Garamond", sans-serif;
+  text-align: center;
+  size: 12pt;
 }
 h1 {
   font-family: "Garamond", sans-serif;
   text-align: center;
+  color: #edf8fb;
 }
 h3 {
   font-family: "Garamond", sans-serif;
   text-align: center;
+  color: #edf8fb;
   font-style: italic;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+
+#RIGHT-col {
+  display: block;
+  background-color: #dadaeb;
+}
+
+#LEFT-col {
+  display: block;
+  background-color: #dadaeb;
 }

@@ -45,7 +45,7 @@ fridges.forEach(function(fridgerow){
 
 //defining color of point based on location host type
 var html = `
-  <h3>${fridgerow.organization}<h3/>
+  <h2>${fridgerow.organization}<h2/>
   <h4>
   <div> Host Type: ${fridgerow.location_type} <div/>
   <div> Instagram: @${fridgerow.instagram} <div/>
